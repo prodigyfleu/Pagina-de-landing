@@ -20,6 +20,13 @@ body {
     padding: 60px 0;
 }
 
+.logo {
+    width: 200px;
+    top: 20px;
+    right: 20px;
+    margin: 0;
+}
+
 header {
     height: 100vh;
     background-image: linear-gradient(135deg, rgba(102, 126, 234, 0.5) 0%, rgba(118, 75, 162, 0.5) 100%), url(../img/fondo1.jpg);
@@ -33,6 +40,7 @@ header {
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding-bottom: 0.1px;
 }
 
 .head {
