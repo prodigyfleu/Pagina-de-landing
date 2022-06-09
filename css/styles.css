@@ -332,3 +332,38 @@ footer {
     font-weight: 250;
 }
 }
+
+@media screen and (max-width:500px){
+    .titulo{
+        font-size: 30px;
+    }
+
+    .copy {
+        font-size: 15px;
+    }
+
+    .brand {
+        font-size: 15px;
+    }
+    
+    .brand+p{
+        font-weight: 200;
+        padding-bottom: 20px;
+    }
+
+    .contact-us{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .social-media {
+        width: 100%;
+        justify-content: space-evenly;
+        margin-left: 0;
+    }
+
+    .img-galeria{
+        width: 90%;
+    }
+}
